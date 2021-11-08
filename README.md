@@ -5,6 +5,11 @@ A temporary repository for discussion and experimentation.
 
 ## Installation
 
+### VS Code Plugin
+
+There is a [VS Code plugin](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode)
+for local development and building.
+
 ### Marp CLI
 
 There is a [CLI that can be installed through npm](https://www.npmjs.com/package/@marp-team/marp-cli).
