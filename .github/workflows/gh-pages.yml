@@ -26,7 +26,10 @@ jobs:
         run: npm install -g @marp-team/marp-cli
 
       - name: Build
-        run: mkdir public && marp slides.md -o public/index.html
+        run: |
+          mkdir ./public
+          marp slides.md -o index.html
+          mv ./index.html ./public/
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
