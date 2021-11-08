@@ -21,10 +21,10 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: "16"
-        run: npm install -g @marp-team/marp-cli
 
       - name: Build
         run:
+          - npm install -g @marp-team/marp-cli
           - mkdir public
           - marp slides.md -o public/index.html
 
