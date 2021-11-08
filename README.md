@@ -14,6 +14,10 @@ for local development and building.
 
 There is a [CLI that can be installed through npm](https://www.npmjs.com/package/@marp-team/marp-cli).
 
+```console
+$ npm install -g @marp-team/marp-cli
+```
+
 To convert a markdown file into e.g. html, do
 
 ```console
