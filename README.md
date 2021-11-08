@@ -31,6 +31,12 @@ Alternatively, you can use the Makefile and run
 $ make all  # to build all targets
 $ make clean  # to remove all builds
 ```
+
+## GitHub Action and Pages
+
+In `Settings / Pages / GitHub Pages` select branch `gh-pages`.
+
+
 ## Syntax
 
-https://marpit.marp.app/image-syntax
+For Marp syntax see [here](https://marpit.marp.app/).
